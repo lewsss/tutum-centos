@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM centos:centos6.7
 MAINTAINER Feng Honglin <hfeng@tutum.co>
 
 RUN yum -y install openssh-server epel-release && \
